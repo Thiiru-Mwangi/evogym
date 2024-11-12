@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("./assets/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Montserrat-VariableFont_wght.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+
